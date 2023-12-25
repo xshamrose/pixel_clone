@@ -1,0 +1,59 @@
+
+
+.container-fluid{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+  border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+}
+nav {
+  margin-left: 200px;
+  margin-right: 200px;
+  
+}
+
+
+.navbar-brand{
+  margin-right: 147px !important;
+}
+  label{
+    color: white;
+    height: 24px;
+    width: 78px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 60px;
+  }
+
+  label:hover{
+    color: #FF4B53;
+    cursor: pointer;
+  }
+  .search .search {
+   margin-left: 100px;
+    height: 23px;
+    width: 23px;
+    color: white;
+    }
+    @media (max-width: 768px) {
+      .container-fluid,
+      nav {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    
+      .navbar-brand {
+        margin-right: 10px !important;
+      }
+    
+      label {
+        margin-right: 10px;
+      }
+    
+      .search .search {
+        margin-left: 10px;
+      }
+    }

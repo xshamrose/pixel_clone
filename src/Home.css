@@ -1,0 +1,124 @@
+.component {
+    background-image: url(./img/rectangle-2.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 750px;
+    width: 1600px;
+}
+
+.component .overlap-group {
+   
+    height: 750px;
+    position: relative;
+}
+
+.component .rectangle {
+    background-color: #282828cc;
+    height: 315px;
+    left: 200px;
+    position: absolute;
+    top: 328px;
+    width: 592px;
+}
+
+.component .text-wrapper {
+    color: #ffffff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 230px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 358px;
+    width: 512px;
+    height: 143px;
+}
+
+.component .knowmore {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 294px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 520px;
+    white-space: nowrap;
+}
+
+.component .ellipsed {
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 16px;
+    height: 32px;
+    left: 252px;
+    position: absolute;
+    top: 513px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.component .arrow {
+    height: 7px;
+    left: 230px;
+    object-fit: cover;
+    position: absolute;
+    top: 525px;
+    width: 42px;
+    cursor: pointer;
+}
+
+.component .group {
+    height: 10px;
+    left: 230px;
+    position: absolute;
+    top: 580px;
+    width: 83px;
+}
+
+.component .rectangle-2 {
+    background-color: #ffffff;
+    border-radius: 60px;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 33px;
+}
+
+.component .ellipse-2 {
+    background-color: #ffffff99;
+    border-radius: 5px;
+    height: 10px;
+    left: 39px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}
+
+.component .ellipse-3 {
+    background-color: #ffffff99;
+    border-radius: 5px;
+    height: 10px;
+    left: 56px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}
+
+.component .ellipse-4 {
+    background-color: #ffffff99;
+    border-radius: 5px;
+    height: 10px;
+    left: 73px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .component .text-wrapper {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+}

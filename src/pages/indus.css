@@ -1,0 +1,139 @@
+ 
+ .image {
+    position: relative;
+  }
+ .indusphoto{
+    margin-top: 110px;
+    margin-bottom: 108px;
+    margin-left: 200px;
+    width: 400px;
+    height: 560px;
+
+}
+
+.image .help{
+    background-color: #c72027;
+    position: absolute;
+  height: 190px;
+  width: 310px;
+  bottom: 133px;
+  left: 450px;
+  padding: 35px;
+}
+.help .text-wrapper {
+    color: #ffffff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+   
+   
+}
+
+.page2{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.grow{
+  display: flex;
+  flex-flow: column;
+  height: 100;
+  width: 600px;
+  margin-left: 180px;
+  padding-top: 133px;
+  
+}
+.tailored-consulting {
+  color: #000000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  align-items: center;
+  width: 552px;
+  }
+  .with-a-team-of {
+    color: #000000cc;
+    font-family: "Varela-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+   
+    letter-spacing: 0;
+    line-height: 30px;
+    
+    width: 552px;
+    }
+  .serve
+   {
+      color: #000000;
+      font-family: "Poppins-SemiBold", Helvetica;
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: normal;
+      white-space: nowrap;
+      margin-bottom: 30px;
+      }
+
+      .list{
+        display: flex;
+         flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    
+      }
+      .indexno{
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      .listservice{
+       
+        color: #000000cc;
+        font-family: "Poppins-Medium", Helvetica;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: normal;
+        flex: 0 0 calc(50% - 0px);
+        margin-bottom: 10px;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid  #A5A6AA99;
+      }
+      .listservice:last-child {
+        flex: 1; /* Full width for the last item */
+        border-bottom:none
+      
+    }
+    .know{
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     align-items: center;
+    }
+
+    .round{
+      position: absolute;
+      top: -3px;
+      left: 25px;
+      cursor: pointer;
+    }
+    .knowtext{
+      margin-left: 25px;
+      font-size: 18px;
+      font-weight: 500;
+      color: #C72027;
+      cursor: pointer;
+    }
+    
+    
+  

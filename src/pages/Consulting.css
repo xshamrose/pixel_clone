@@ -1,0 +1,80 @@
+.consult {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F5F4;
+    height: 700px;
+    width: 1600px;
+    padding-top: 50px;
+  }
+  
+  .expert {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    height: 70px;
+    width: 700px;
+  }
+  
+  .my-custom-img-classes {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin-top: 60px;
+  }
+ 
+  .carousel-inner {
+    display: flex;
+    margin: 0 !important; 
+  padding: 0 !important; 
+  }
+  
+  .carousel-item {
+    display: flex;
+    margin: 0 !important; 
+    padding: 0 !important;
+  }
+  
+  .img-all {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .one {
+    position: relative;
+  }
+  
+  .my-custom-img-classes {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
+  
+  .bottom-content {
+    position: absolute;
+    bottom: 35px;
+    left: 16px;
+    padding: 10px;
+    width: calc(100% - 30px);
+     
+  }
+  .slide-content{
+  
+    color: #050505;
+    height: 10px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
